@@ -28,6 +28,13 @@ def gd_music_0(message):
 @bot.message_handler(commands=["Back_on_track"])
 def gd_music_1(message):
         bot.reply_to(message, 'Вот ссылка на песню этого уровня: https://rus.hitmotop.com/song/68756760')
-
+@bot.message_handler(commands=["Polargeist"])
+def gd_music_2(message):
+        bot.reply_to(message, 'Вот ссылка на песню этого уровня: https://rus.hitmotop.com/song/63509169')
+@bot.message_handler(commands=["Dry_out"])
+def gd_music_3(message):
+        bot.reply_to(message, 'Вот ссылка на песню этого уровня: https://rus.hitmotop.com/song/67902846')
+@bot.message_handler(commands=["Base_after_base"])
+def gd_music_3(message):
+        bot.reply_to(message, 'Вот ссылка на песню этого уровня: https://rus.hitmotop.com/song/66331333 ')
 bot.polling()
-
